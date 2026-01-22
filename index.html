@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>E-NET S.R.L. — Tecnología, Bienes Raíces y Soluciones Comerciales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --red: #c00000;
+            --dark-red: #8a0000;
+            --light-red: #ff2a2a;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--red);
+            color: var(--white);
+            line-height: 1.6;
+        }
+
+        section {
+            padding: 80px 10%;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        h1, h2, h3 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 56px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 900px;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--red), var(--dark-red));
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 1000px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+
+        .item {
+            border-left: 4px solid var(--light-red);
+            padding-left: 20px;
+        }
+
+        .process-step {
+            font-size: 20px;
+        }
+
+        .contacts {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--dark-red), var(--red));
+        }
+
+        .contacts p {
+            font-size: 22px;
+        }
+
+        .email {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        footer {
+            padding: 40px 10%;
+            text-align: center;
+            background-color: var(--dark-red);
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 900px) {
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Главный экран -->
+    <section class="hero">
+        <h1>E-NET S.R.L.</h1>
+        <p>
+            Conectamos tecnología, bienes raíces y soluciones comerciales en un solo ecosistema profesional. 
+            E-NET S.R.L. opera en la intersección entre infraestructura digital, equipamiento especializado y gestión inmobiliaria, 
+            ofreciendo respuestas concretas a las necesidades operativas y estratégicas de empresas modernas.
+        </p>
+    </section>
+
+    <!-- 2. Про нас -->
+    <section>
+        <h2>Quiénes Somos</h2>
+        <p>
+            E-NET S.R.L. es una empresa multidisciplinaria enfocada en la integración de tecnología, comercio y servicios inmobiliarios. 
+            Trabajamos con equipamiento electrónico, informática profesional y suministros comerciales, acompañando a nuestros clientes desde la adquisición hasta el mantenimiento. 
+            Nuestra experiencia abarca tanto el mercado minorista como mayorista, con una fuerte orientación a soluciones técnicas reales. 
+            Además, gestionamos y asesoramos operaciones inmobiliarias vinculadas a espacios comerciales y corporativos. 
+            Cada proyecto es abordado con una lógica práctica, eficiente y orientada a resultados sostenibles.
+        </p>
+    </section>
+
+    <!-- 3. Сервисы -->
+    <section>
+        <h2>Áreas de Especialización</h2>
+        <div class="grid-3">
+            <div class="item">
+                <h3>Tecnología y Equipamiento Profesional</h3>
+                <p>
+                    Comercializamos computadoras, periféricos, software y equipamiento electrónico especializado. 
+                    Seleccionamos soluciones confiables para entornos comerciales, técnicos y corporativos. 
+                    Nuestro enfoque está en el rendimiento, la escalabilidad y la continuidad operativa.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Soporte Técnico y Mantenimiento</h3>
+                <p>
+                    Brindamos servicios de reparación y mantenimiento de equipos electrónicos y de precisión. 
+                    Diagnosticamos fallas, optimizamos sistemas y extendemos la vida útil del equipamiento. 
+                    Actuamos con rapidez y criterio técnico, minimizando tiempos de inactividad.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Gestión y Asesoría Inmobiliaria</h3>
+                <p>
+                    Operamos en el sector inmobiliario con foco en propiedades comerciales y profesionales. 
+                    Asesoramos en compra, venta y administración de espacios adaptados a la actividad empresarial. 
+                    Combinamos análisis de mercado con visión estratégica a largo plazo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Преимущества -->
+    <section>
+        <h2>Por Qué Elegir E-NET</h2>
+        <div class="grid-3">
+            <div class="item">
+                <h3>Visión Integral</h3>
+                <p>
+                    Unimos tecnología, comercio e inmuebles para ofrecer soluciones coherentes y conectadas.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Experiencia Técnica Real</h3>
+                <p>
+                    No vendemos teoría: trabajamos con sistemas, equipos y operaciones reales.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Enfoque en Eficiencia</h3>
+                <p>
+                    Cada decisión está orientada a optimizar recursos, tiempos y resultados.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Процесс -->
+    <section>
+        <h2>Nuestro Método de Trabajo</h2>
+        <div class="grid-3">
+            <div class="item process-step">
+                <h3>1. Análisis</h3>
+                <p>
+                    Estudiamos el contexto técnico, comercial o inmobiliario del cliente.
+                </p>
+            </div>
+            <div class="item process-step">
+                <h3>2. Propuesta</h3>
+                <p>
+                    Diseñamos una solución concreta, viable y alineada con los objetivos.
+                </p>
+            </div>
+            <div class="item process-step">
+                <h3>3. Implementación</h3>
+                <p>
+                    Ejecutamos con precisión técnica y acompañamiento continuo.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Контакты -->
+    <section class="contacts">
+        <h2>Conectemos</h2>
+        <p>
+            Si estás buscando un socio confiable en tecnología, equipamiento o gestión inmobiliaria, 
+            estamos listos para escucharte. Escríbenos y conversemos sobre cómo optimizar tus operaciones 
+            y transformar tus recursos en valor real.
+        </p>
+        <div class="email">contact@e-net.services</div>
+        <p>
+            Av 7 De Marzo 2260<br>
+            Santo Tomé, Santa Fe, 3016
+        </p>
+    </section>
+
+    <!-- 8. Футер -->
+    <footer>
+        © 2026 E-NET S.R.L. — Soluciones tecnológicas, comerciales e inmobiliarias integradas.
+    </footer>
+
+</body>
+</html>
